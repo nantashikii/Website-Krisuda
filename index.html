@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Personal Website I Gede Bagus Ananta Krisuda - Mahasiswa S1 Pendidikan Teknik Informatika Undiksha"
+    >
+
+    <meta
+        name="author"
+        content="I Gede Bagus Ananta Krisuda"
+    >
+
+    <title>
+        Krisuda | Personal Website
+    </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+
+<body>
+
+    <div
+        class="loader"
+        id="loader"
+    >
+
+        <div class="loader-content">
+
+            <div class="loader-logo">
+                K<span>.</span>
+            </div>
+
+            <div class="loader-line"></div>
+
+            <p>
+                Loading Ya Gess...
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div
+        class="cursor-dot"
+        id="cursorDot"
+    ></div>
+
+    <div
+        class="cursor-outline"
+        id="cursorOutline"
+    ></div>
+
+
+    <div class="background">
+
+        <div class="grid-background"></div>
+
+        <div class="glow glow-1"></div>
+
+        <div class="glow glow-2"></div>
+
+        <div class="glow glow-3"></div>
+
+        <canvas id="particles"></canvas>
+
+    </div>
+
+
+    <header
+        class="navbar"
+        id="navbar"
+    >
+
+        <div class="container nav-container">
+
+            <a
+                href="#home"
+                class="logo"
+            >
+
+                <span class="logo-symbol">
+                    K
+                </span>
+
+                <span class="logo-text">
+                    KRISUDA<span>.</span>
+                </span>
+
+            </a>
+
+
+            <nav>
+
+                <ul
+                    class="nav-links"
+                    id="navLinks"
+                >
+
+                    <li>
+                        <a
+                            href="#home"
+                            class="nav-link active"
+                        >
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="#about"
+                            class="nav-link"
+                        >
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="#journey"
+                            class="nav-link"
+                        >
+                            Journey
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="#gallery"
+                            class="nav-link"
+                        >
+                            Gallery
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            href="#contact"
+                            class="nav-link"
+                        >
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                aria-label="Open navigation"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+
+        <section
+            class="hero section"
+            id="home"
+        >
+
+            <div class="container hero-container">
+
+
+                <div class="hero-content reveal">
+
+                    <div class="availability">
+
+                        <span class="availability-dot"></span>
+
+                        <span>
+                            Mahasiswa Baru Undiksha · 2026
+                        </span>
+
+                    </div>
+
+
+                    <p class="hero-small-title">
+                        HALLO AKU
+                    </p>
+
+
+                    <h1>
+
+                        I Gede Bagus
+                        <br>
+
+                        <span class="gradient-text">
+                            Ananta Krisuda
+                        </span>
+
+                    </h1>
+
+
+                    <div class="hero-role">
+
+                        <span>
+                            Aspiring
+                        </span>
+
+                        <span
+                            class="typing-text"
+                            id="typingText"
+                        ></span>
+
+                        <span class="typing-cursor">
+                            |
+                        </span>
+
+                    </div>
+
+
+                    <p class="hero-description">
+
+                        Mahasiswa
+                        <strong>
+                            S1 Pendidikan Teknik Informatika
+                        </strong>
+                        Universitas Pendidikan Ganesha yang
+                        memiliki ketertarikan pada programming,
+                        teknologi, dan pengembangan ide kreatif
+                        menjadi sesuatu yang nyata.
+
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#about"
+                            class="btn btn-primary"
+                        >
+
+                            <span>
+                                Kenali Saya Rek
+                            </span>
+
+                            <i class="fa-solid fa-arrow-down"></i>
+
+                        </a>
+
+
+                        <a
+                            href="https://wa.link/m8nmbpm"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-outline"
+                        >
+
+                            <i class="fa-brands fa-whatsapp"></i>
+
+                            <span>
+                                Sini Kenalan
+                            </span>
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="hero-social">
+
+                        <span>
+                            Cari Tahu Saya Disini
+                        </span>
+
+                        <a
+                            href="https://linktr.ee/04_Char_Krisuda"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Linktree"
+                        >
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+
+                        <a
+                            href="https://wa.link/m8nmbpm"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="WhatsApp"
+                        >
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual reveal">
+
+
+                    <div class="profile-card">
+
+                        <div class="profile-image">
+
+                        
+                            <img
+                                src="images/profile.jpeg"
+                                alt="Foto Krisuda"
+                            >
+                            -->
+
+                            <img
+                                src="images/profile.jpeg"
+                                alt="Foto I Gede Bagus Ananta Krisuda"
+                                onerror="
+                                this.style.display='none';
+                                document.getElementById('profileFallback').style.display='flex';
+                                "
+                            >
+
+                            <div
+                                class="profile-fallback"
+                                id="profileFallback"
+                            >
+
+                                <span>
+                                    K
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="profile-info">
+
+                            <div>
+
+                                <h3>
+                                    Krisuda
+                                </h3>
+
+                                <p>
+                                    Informatics Student
+                                </p>
+
+                            </div>
+
+                            <div class="profile-number">
+
+                                <span>
+                                    #04
+                                </span>
+
+                                <small>
+                                    CHAR
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="floating-card floating-card-top">
+
+                        <i class="fa-solid fa-code"></i>
+
+                        <div>
+
+                            <strong>
+                                Programming
+                            </strong>
+
+                            <span>
+                                My Interest
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="floating-card floating-card-bottom">
+
+                        <span class="chess-icon">
+                            ♟
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Chess
+                            </strong>
+
+                            <span>
+                                My Hobby
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <a
+                href="#about"
+                class="scroll-indicator"
+            >
+
+                <span>
+                    Scroll to explore
+                </span>
+
+                <i class="fa-solid fa-arrow-down"></i>
+
+            </a>
+
+        </section>
+
+
+
+        <section
+            class="section"
+            id="about"
+        >
+
+            <div class="container">
+
+
+                <div class="section-header reveal">
+
+                    <span class="section-number">
+                        👨🏻‍🎓
+                    </span>
+
+                    <div>
+
+                        <p class="section-label">
+                            ABOUT ME
+                        </p>
+
+                        <h2>
+                            Get to know
+                            <span class="gradient-text">
+                                me.
+                            </span>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-grid">
+
+
+                    <div class="about-intro glass-card reveal">
+
+                        <div class="card-icon">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <h3>
+                            Siapa aku ?
+                        </h3>
+
+                        <p>
+
+                            Halo! Nama saya
+                            <strong>
+                                I Gede Bagus Ananta Krisuda
+                            </strong>
+                            dan saya biasa dipanggil
+                            <strong>
+                                Krisuda
+                            </strong>.
+
+                        </p>
+
+                        <p>
+
+                            Saya adalah mahasiswa baru
+                            Universitas Pendidikan Ganesha
+                            yang sedang memulai perjalanan
+                            baru di dunia teknologi dan
+                            pendidikan.
+
+                        </p>
+
+
+                        <div class="quote">
+
+                            <i class="fa-solid fa-quote-left"></i>
+
+                            <p>
+                                Setiap baris kode adalah
+                                langkah kecil menuju sebuah ide
+                                yang bisa menjadi nyata.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="biodata-card glass-card reveal">
+
+                        <div class="card-header">
+
+                            <div class="card-icon">
+                                <i class="fa-solid fa-id-card"></i>
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Personal Information
+                                </h3>
+
+                                <p>
+                                    My basic profile
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="biodata-list">
+
+
+                            <div class="biodata-item">
+
+                                <span>
+                                    <i class="fa-solid fa-user"></i>
+                                    Nama Lengkap
+                                </span>
+
+                                <strong>
+                                    I Gede Bagus Ananta Krisuda
+                                </strong>
+
+                            </div>
+
+
+                            <div class="biodata-item">
+
+                                <span>
+                                    <i class="fa-solid fa-signature"></i>
+                                    Nama Panggilan
+                                </span>
+
+                                <strong>
+                                    Krisuda
+                                </strong>
+
+                            </div>
+
+
+                            <div class="biodata-item">
+
+                                <span>
+                                    <i class="fa-solid fa-hashtag"></i>
+                                    NIM
+                                </span>
+
+                                <strong>
+                                    2615051044
+                                </strong>
+
+                            </div>
+
+
+                            <div class="biodata-item">
+
+                                <span>
+                                    <i class="fa-solid fa-users"></i>
+                                    Kelompok
+                                </span>
+
+                                <strong>
+                                    04 · Char
+                                </strong>
+
+                            </div>
+
+
+                            <div class="biodata-item">
+
+                                <span>
+                                    <i class="fa-solid fa-school"></i>
+                                    Asal Sekolah
+                                </span>
+
+                                <strong>
+                                    SMKN 2 Kuta Selatan
+                                </strong>
+
+                            </div>
+
+
+                            <div class="biodata-item">
+
+                                <span>
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                    Program Studi
+                                </span>
+
+                                <strong>
+                                    S1 Pendidikan Teknik Informatika
+                                </strong>
+
+                            </div>
+
+
+                            <div class="biodata-item full">
+
+                                <span>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Alamat Asal
+                                </span>
+
+                                <strong>
+                                    Perumahan Taman Penta I,
+                                    Jimbaran, Badung
+                                </strong>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stats-grid reveal">
+
+
+                    <div class="stat-card">
+
+                        <span class="stat-icon">
+                            ♟
+                        </span>
+
+                        <strong>
+                            <span
+                                class="counter"
+                                data-target="1"
+                            >
+                                0
+                            </span>
+                        </strong>
+
+                        <p>
+                            Hobby
+                        </p>
+
+                        <small>
+                            Chess
+                        </small>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <span class="stat-icon">
+                            🏆
+                        </span>
+
+                        <strong>
+                            <span
+                                class="counter"
+                                data-target="1"
+                            >
+                                0
+                            </span>
+                            <span>
+                                ×
+                            </span>
+                        </strong>
+
+                        <p>
+                            Achievement
+                        </p>
+
+                        <small>
+                            Juara 1 Lomba Aplikasi
+                        </small>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <span class="stat-icon">
+                            💻
+                        </span>
+
+                        <strong>
+                            <span
+                                class="counter"
+                                data-target="100"
+                            >
+                                0
+                            </span>
+                            <span>
+                                %
+                            </span>
+                        </strong>
+
+                        <p>
+                            Curiosity
+                        </p>
+
+                        <small>
+                            Always Learning
+                        </small>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <span class="stat-icon">
+                            🚀
+                        </span>
+
+                        <strong>
+                            #04
+                        </strong>
+
+                        <p>
+                            Group
+                        </p>
+
+                        <small>
+                            Char
+                        </small>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section
+            class="section journey-section"
+            id="journey"
+        >
+
+            <div class="container">
+
+
+                <div class="section-header reveal">
+
+                    <span class="section-number">
+                        🧐
+                    </span>
+
+                    <div>
+
+                        <p class="section-label">
+                            MY JOURNEY
+                        </p>
+
+                        <h2>
+                            Why
+                            <span class="gradient-text">
+                                Informatics?
+                            </span>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="journey-content">
+
+
+                    <div class="journey-main glass-card reveal">
+
+                        <div class="code-decoration">
+                            &lt;/&gt;
+                        </div>
+
+                        <span class="journey-tag">
+                            MY REASON
+                        </span>
+
+                        <h3>
+                            Turning ideas into
+                            <span class="gradient-text">
+                                reality.
+                            </span>
+                        </h3>
+
+
+                        <p>
+
+                            Saya memilih Program Studi
+                            <strong>
+                                S1 Pendidikan Teknik Informatika
+                            </strong>
+                            karena sejak sekolah saya sudah
+                            memiliki ketertarikan terhadap dunia
+                            programming dan teknologi.
+
+                        </p>
+
+
+                        <p>
+
+                            Bagi saya, programming bukan hanya
+                            tentang menulis kode. Programming
+                            adalah cara untuk memecahkan masalah,
+                            menciptakan sesuatu, dan mengubah
+                            sebuah ide menjadi sebuah karya yang
+                            dapat digunakan.
+
+                        </p>
+
+
+                        <p>
+
+                            Ketertarikan tersebut pernah saya
+                            kembangkan melalui sebuah
+                            <strong>
+                                lomba karya aplikasi fiksi
+                            </strong>
+                            dan berhasil mendapatkan
+                            <strong>
+                                juara 1
+                            </strong>.
+
+                        </p>
+
+
+                        <p>
+
+                            Pengalaman tersebut membuat saya
+                            semakin yakin untuk mendalami dunia
+                            teknologi, khususnya programming dan
+                            pengembangan aplikasi.
+
+                        </p>
+
+
+                        <p>
+
+                            Di Undiksha, saya ingin terus belajar,
+                            bereksperimen, mengembangkan kemampuan,
+                            dan suatu hari mampu menciptakan
+                            teknologi yang dapat memberikan manfaat
+                            bagi banyak orang.
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="journey-side">
+
+
+                        <div class="dream-card glass-card reveal">
+
+                            <div class="dream-icon">
+                                🚀
+                            </div>
+
+                            <span class="journey-tag">
+                                MY DREAM
+                            </span>
+
+                            <h3>
+                                Elon Musk
+                                <span>
+                                    wkwkw 😆
+                                </span>
+                            </h3>
+
+                            <p>
+
+                                Bercita-cita menjadi seseorang yang
+                                inovatif, berani membuat sesuatu
+                                yang berbeda, dan mampu memberikan
+                                dampak melalui teknologi.
+
+                            </p>
+
+                        </div>
+
+
+                        <div class="hobby-card glass-card reveal">
+
+                            <div class="chess-board">
+
+                                <span>♜</span>
+                                <span>♞</span>
+                                <span>♝</span>
+                                <span>♛</span>
+
+                                <span>♟</span>
+                                <span>♟</span>
+                                <span>♟</span>
+                                <span>♟</span>
+
+                                <span>♙</span>
+                                <span>♙</span>
+                                <span>♙</span>
+                                <span>♙</span>
+
+                                <span>♖</span>
+                                <span>♘</span>
+                                <span>♗</span>
+                                <span>♕</span>
+
+                            </div>
+
+                            <div>
+
+                                <span class="journey-tag">
+                                    MY HOBBY
+                                </span>
+
+                                <h3>
+                                    Playing Chess
+                                </h3>
+
+                                <p>
+                                    Strategi, kesabaran,
+                                    dan setiap langkah memiliki
+                                    konsekuensi.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section
+            class="section"
+            id="gallery"
+        >
+
+            <div class="container">
+
+
+                <div class="section-header reveal">
+
+                    <span class="section-number">
+                        📷
+                    </span>
+
+                    <div>
+
+                        <p class="section-label">
+                            GALLERY
+                        </p>
+
+                        <h2>
+                            Moments of
+                            <span class="gradient-text">
+                                me.
+                            </span>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <p class="section-description reveal">
+
+                    Beberapa momen dan kegiatan yang menjadi
+                    bagian dari perjalanan awal saya.
+
+                </p>
+
+
+                <div class="gallery-grid">
+
+
+                    <article
+                        class="gallery-item gallery-large reveal"
+                    >
+
+                        <img
+                            src="Images/DepanFTK.jpeg"
+                            alt="Dokumentasi FTK"
+                            loading="lazy"
+                            onerror="
+                            this.style.display='none';
+                            this.nextElementSibling.style.display='flex';
+                            "
+                        >
+
+                        <div class="gallery-fallback">
+
+                            <i class="fa-solid fa-camera"></i>
+
+
+                        </div>
+
+                        <div class="gallery-overlay">
+
+                            <span>
+                                01
+                            </span>
+
+                            <p>
+                                Depan FTK Cuy
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    
+
+                    <article
+                        class="gallery-item reveal"
+                    >
+
+                        <img
+                            src="images/KegiatanWidyaSabha.jpeg"
+                            alt="Widya Sabha 2026"
+                            loading="lazy"
+                            onerror="
+                            this.style.display='none';
+                            this.nextElementSibling.style.display='flex';
+                            "
+                        >
+
+                        <div class="gallery-fallback">
+
+                            <i class="fa-solid fa-camera"></i>
+
+
+                        </div>
+
+                        <div class="gallery-overlay">
+
+                            <span>
+                                02
+                            </span>
+
+                            <p>
+                                Widya Sabha 2026
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article
+                        class="gallery-item reveal"
+                    >
+
+                        <img
+                            src="images/PKKMB2026.jpeg"
+                            alt="PKKMB2026"
+                            loading="lazy"
+                            onerror="
+                            this.style.display='none';
+                            this.nextElementSibling.style.display='flex';
+                            "
+                        >
+
+                        <div class="gallery-fallback">
+
+                            <i class="fa-solid fa-camera"></i>
+
+
+                        </div>
+
+                        <div class="gallery-overlay">
+
+                            <span>
+                                03
+                            </span>
+
+                            <p>
+                                PKKMB 2026
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section
+            class="section contact-section"
+            id="contact"
+        >
+
+            <div class="container">
+
+
+                <div class="contact-card reveal">
+
+                    <div class="contact-decoration">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+
+                    <p class="section-label">
+                        LET'S CONNECT
+                    </p>
+
+
+                    <h2>
+                        Let's create
+                        <span class="gradient-text">
+                            something.
+                        </span>
+                    </h2>
+
+
+                    <p>
+
+                        Ingin berkenalan, berdiskusi, atau sekadar
+                        menyapa? Jangan ragu untuk menghubungi saya.
+
+                    </p>
+
+
+                    <div class="contact-buttons">
+
+
+                        <a
+                            href="https://wa.link/m8nmbpm"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-primary"
+                        >
+
+                            <i class="fa-brands fa-whatsapp"></i>
+
+                            WhatsApp
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+
+                        <a
+                            href="https://linktr.ee/04_Char_Krisuda"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-outline"
+                        >
+
+                            <i class="fa-solid fa-link"></i>
+
+                            Linktree
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-info">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Banjar, Buleleng
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            Universitas Pendidikan Ganesha
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-code"></i>
+                            Informatics Student
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <footer>
+
+        <div class="container footer-container">
+
+            <div>
+
+                <a
+                    href="#home"
+                    class="logo"
+                >
+
+                    <span class="logo-symbol">
+                        K
+                    </span>
+
+                    <span class="logo-text">
+                        KRISUDA<span>.</span>
+                    </span>
+
+                </a>
+
+            </div>
+
+
+            <p>
+
+                Designed & Built by
+                <strong>
+                    I Gede Bagus Ananta Krisuda
+                </strong>
+
+            </p>
+
+
+            <p class="copyright">
+
+                ©
+                <span id="currentYear">
+                    2026
+                </span>
+
+                · All Rights Reserved
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <button
+        class="back-to-top"
+        id="backToTop"
+        aria-label="Back to top"
+    >
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
